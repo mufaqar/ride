@@ -12,7 +12,7 @@ function Banner() {
                     <h3 className='md:text-4xl text-2xl font-medium text-[#99C12A]'>
                         Welcome
                     </h3>
-                    <h1 className='md:text-[90px] text-5xl leading-none font-bold '>
+                    <h1 className='md:text-[90px] text-5xl leading-none font-bold axiformaBold'>
                         Your Ride your price.
                     </h1>
                     <h3 className='md:text-4xl text-2xl font-medium text-[#99C12A] my-8'>

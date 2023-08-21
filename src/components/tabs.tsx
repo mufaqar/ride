@@ -13,7 +13,7 @@ export default function Tabs() {
     return (
         <div className='container mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-10 relative z-10 items-center'>
             <div className=''>
-                <h1 className='md:text-[85px] text-5xl leading-none font-bold mb-8'>
+                <h1 className='md:text-[78px] text-5xl leading-none font-bold mb-8 axiformaBold'>
                     Everyone is a winner at Ride.
                 </h1>
                 <div className="flex flex-wrap">

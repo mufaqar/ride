@@ -19,7 +19,7 @@ export default function Home() {
             <Image src="/images/1.png" alt='2.png' width={830} height={643} />
           </div>
           <div className='md:order-2 order-1'>
-            <h1 className='md:text-[90px] text-5xl leading-none font-bold mb-8'>
+            <h1 className='md:text-[78px] text-5xl leading-none font-bold mb-8 axiformaBold'>
               Let's be fair with the fare.
             </h1>
             <div className='flex flex-wrap gap-2'>

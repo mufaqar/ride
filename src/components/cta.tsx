@@ -7,7 +7,7 @@ function Cta() {
         <section className='py-20 bg-[#99C12A]'>
             <div className='container mx-auto px-4 '>
                 <div className='max-w-[842px] mx-auto'>
-                    <h1 className='md:text-[80px] text-5xl leading-none font-bold mb-8 text-center'>
+                    <h1 className='md:text-[80px] text-5xl leading-none font-bold mb-8 axiformaBold text-center'>
                         Launching soon on apple & android
                     </h1>
                     <div className='flex flex-wrap gap-4 justify-center'>
