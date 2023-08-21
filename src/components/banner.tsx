@@ -18,7 +18,7 @@ function Banner() {
                     <h3 className='md:text-4xl text-2xl font-medium text-[#99C12A] my-8'>
                         Ride or Drive with the price you both agree upon.
                     </h3>
-                    <div className='flex flex-wrap gap-2'>
+                    <div className='flex flex-wrap gap-3'>
                         <Link href="#" className='text-base font-normal uppercase border-[#99C12A] border-2 bg-[#99C12A] text-[#272727] py-2 px-5 rounded-full block w-fit'>
                             Download App
                         </Link>

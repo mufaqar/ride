@@ -18,14 +18,14 @@ function Footer() {
                         Join Our Newsletter
                     </h6>
                     <form>
-                        <div className="flex items-center border-y border-white/40">
+                        <div className="flex items-center border border-white/40">
                             <div className="relative w-full">
                                 <label htmlFor="email" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
-                                <input className="w-full bg-transparent placeholder:text-white focus:outline-none h-full" placeholder="Enter Email" type="email" id="email" />
+                                <input className="w-full px-4 text-base placeholder:text-base bg-transparent placeholder:text-white focus:outline-none h-full" placeholder="Enter Email" type="email" id="email" />
                             </div>
                             <div>
                                 <button type="submit" className="py-3 px-5 w-fit bg-[#99C12A]">
-                                    <BsArrowRight className="text-[#4048BF]" />
+                                    <BsArrowRight size={18} className="text-[#4048BF]" />
                                 </button>
                             </div>
                         </div>
