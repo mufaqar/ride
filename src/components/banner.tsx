@@ -6,7 +6,7 @@ import { BsFillPlayFill } from 'react-icons/bs'
 function Banner() {
     return (
         <section className='py-16'>
-            <Image src="/images/bg1.svg" alt='bg1.png' width={989} height={643} className='absolute sm:top-0 sm:max-w-[50%] max-w-[80%] left-auto right-0 top-[70%]' />
+            <Image src="/images/bg1.svg" alt='bg1.png' width={989} height={643} className='absolute top-0 left-[50%] max-w-[50%] md:block hidden' />
             <div className='container mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-10 relative z-10'>
                 <div>
                     <h3 className='md:text-4xl text-2xl font-medium text-Cstm_gren orkneyBold'>
@@ -30,7 +30,8 @@ function Banner() {
                         </Link>
                     </div>
                 </div>
-                <div className='md:bg-none .bg-[url("/images/bg1.svg")] bg-right bg-no-repeat bg-contain'>
+                <div className=''>
+                    <Image src="/images/bg1.svg" alt='bg1.png' width={989} height={643} className='absolute -right-5 w-[80%] z-[-2] md:hidden block' />
                     <Image src="/images/1.png" alt='1.png' width={830} height={643} />
                 </div>
             </div>
