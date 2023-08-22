@@ -23,13 +23,13 @@ export default function Home() {
               Let's be fair with the fare.
             </h1>
             <div className='flex flex-wrap gap-2'>
-              <Link href="#" className='text-base font-normal uppercase border-[#99C12A] orkneyRegular border-2 bg-[#99C12A] text-[#272727] hover:bg-transparent py-2 px-5 rounded-full block w-fit'>
+              <Link href="#" className='text-base font-normal uppercase border-Cstm_gren orkneyRegular border-2 bg-Cstm_gren text-title_clr hover:bg-transparent py-2 px-5 rounded-full block w-fit'>
                 Download App
               </Link>
-              <Link href="#" className='text-base font-normal uppercase border-[#99C12A] orkneyRegular border-2 bg-transparent text-[#272727] hover:bg-[#99C12A] hover:text-[#272727] py-2 px-5 rounded-full block w-fit'>
+              <Link href="#" className='text-base font-normal uppercase border-Cstm_gren orkneyRegular border-2 bg-transparent text-title_clr hover:bg-Cstm_gren hover:text-title_clr py-2 px-5 rounded-full block w-fit'>
                 Become a Driver
               </Link>
-              <Link href="#" className='text-base font-normal uppercase border-[#99C12A] orkneyRegular border-2 bg-[#99C12A] text-white p-2 rounded-full block w-fit'>
+              <Link href="#" className='text-base font-normal uppercase border-Cstm_gren orkneyRegular border-2 bg-Cstm_gren text-white p-2 rounded-full block w-fit'>
                 <BsFillPlayFill size={24} />
               </Link>
             </div>

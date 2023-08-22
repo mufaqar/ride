@@ -4,7 +4,7 @@ import React from 'react'
 
 function Cta() {
     return (
-        <section className='py-20 bg-[#99C12A]'>
+        <section className='py-20 bg-Cstm_gren'>
             <div className='container mx-auto px-4 '>
                 <div className='max-w-[842px] mx-auto'>
                     <h1 className='md:text-[80px] text-5xl leading-none font-bold mb-8 axiformaBold text-center'>

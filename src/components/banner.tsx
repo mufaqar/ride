@@ -9,23 +9,23 @@ function Banner() {
             <Image src="/images/bg1.svg" alt='bg1.png' width={989} height={643} className='absolute top-0 left-[50%] max-w-[50%] md:block hidden' />
             <div className='container mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-10 relative z-10'>
                 <div>
-                    <h3 className='md:text-4xl text-2xl font-medium text-[#99C12A] orkneyBold'>
+                    <h3 className='md:text-4xl text-2xl font-medium text-Cstm_gren orkneyBold'>
                         Welcome
                     </h3>
                     <h1 className='md:text-[90px] text-5xl leading-none font-bold axiformaBold'>
                         Your Ride your price.
                     </h1>
-                    <h3 className='md:text-4xl text-2xl font-medium text-[#99C12A] orkneyBold my-8'>
+                    <h3 className='md:text-4xl text-2xl font-medium text-Cstm_gren orkneyBold my-8'>
                         Ride or Drive with the price you both agree upon.
                     </h3>
                     <div className='flex flex-wrap gap-3'>
-                        <Link href="#" className='text-base font-normal uppercase orkneyRegular border-[#99C12A] border-2 bg-[#99C12A] text-[#272727] hover:bg-transparent py-2 px-5 rounded-full block w-fit'>
+                        <Link href="#" className='text-base font-normal uppercase orkneyRegular border-Cstm_gren border-2 bg-Cstm_gren text-title_clr hover:bg-transparent py-2 px-5 rounded-full block w-fit'>
                             Download App
                         </Link>
-                        <Link href="#" className='text-base font-normal uppercase orkneyRegular border-[#99C12A] border-2 bg-transparent text-[#272727] hover:bg-[#99C12A] hover:text-[#272727] py-2 px-5 rounded-full block w-fit'>
+                        <Link href="#" className='text-base font-normal uppercase orkneyRegular border-Cstm_gren border-2 bg-transparent text-title_clr hover:bg-Cstm_gren hover:text-title_clr py-2 px-5 rounded-full block w-fit'>
                             Become a Driver
                         </Link>
-                        <Link href="#" className='text-base font-normal uppercase orkneyRegular border-[#99C12A] border-2 bg-[#99C12A] text-white p-2 rounded-full block w-fit'>
+                        <Link href="#" className='text-base font-normal uppercase orkneyRegular border-Cstm_gren border-2 bg-Cstm_gren text-white p-2 rounded-full block w-fit'>
                             <BsFillPlayFill size={24} />
                         </Link>
                     </div>

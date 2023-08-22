@@ -24,7 +24,7 @@ function Footer() {
                                 <input className="w-full px-4 text-base orkneyRegular placeholder:text-base bg-transparent placeholder:text-white focus:outline-none h-full" placeholder="Enter Email" type="email" id="email" />
                             </div>
                             <div>
-                                <button type="submit" className="py-3 px-5 w-fit bg-[#99C12A]">
+                                <button type="submit" className="py-3 px-5 w-fit bg-Cstm_gren">
                                     <BsArrowRight size={18} className="text-[#4048BF]" />
                                 </button>
                             </div>
