@@ -11,6 +11,9 @@ function Footer() {
                 <div>
                     <Link href="/">
                         <Image src="/images/logo-gren.svg" alt='logo' width={72} height={20} className='md:max-h-28 max-h-16 ml-0' />
+                        <h6 className='text-base font-normal orkneyRegular text-white mb-5'>
+                        My ride My price
+                    </h6>
                     </Link>
                 </div>
                 <div>
@@ -53,36 +56,43 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
+
+                
+
+
+
+
+
                 <div>
                     <ul className='grid gap-2'>
                         <li>
                             <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
-                                Ride Clone App - Taxi Booking
+                            Rider App - Taxi Booking
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
-                                Online Food Delivery System
+                            Online Food Delivery 
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
-                                Delivery Anything
+                            C2C Delivery 
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
-                                Grocery Delivery App
+                            Grocery Delivery App
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
-                                Medicine Delivery App
+                            Medicine Delivery App
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
-                                Online Doctor Appointment Booking
+                            A super app
                             </Link>
                         </li>
                     </ul>

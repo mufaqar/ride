@@ -20,7 +20,7 @@ function Header() {
                             open ? (<GrClose size={26} />) : (<FaBars size={26} />)
                         }
                     </button>
-                    <ul className={`flex md:flex-row flex-col justify-center md:gap-10 gap-2 md:static bg-transparent absolute ${open ? 'left-0 right-0 top-16 bg-gray-100 p-5' : 'top-[-200px]'}`}>
+                    <ul className={`flex md:flex-row flex-col justify-center md:gap-10 gap-2 md:static bg-transparent absolute ${open ? 'left-0 right-0 top-16 !bg-gray-100 p-5' : 'top-[-200px]'}`}>
                         <li>
                             <Link href="/" className='text-base font-normal text-title_clr orkneyRegular hover:font-bold'>
                                 Home
@@ -39,13 +39,13 @@ function Header() {
                     </ul>
                 </nav>
                 <div className='w-1/3 md:block hidden'>
-                    <ul className='flex justify-end gap-10 items-center'>
+                    <ul className='flex justify-end gap-10 items-center '>
                         <li>
                             <span className='text-base font-normal text-title_clr orkneyRegular text-right block'>
                                 Call Us
                             </span>
-                            <Link href="tel:213-460-2382" className='text-base font-bold text-title_clr orkneyRegular hover:text-Cstm_gren'>
-                                213-460-2382
+                            <Link href="tel:+35699700078" className='text-base font-bold text-title_clr orkneyRegular hover:text-Cstm_gren'>
+                                +356 99 7000 78
                             </Link>
                         </li>
                         <li>
