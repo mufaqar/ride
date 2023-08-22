@@ -22,17 +22,17 @@ function Header() {
                     </button>
                     <ul className={`flex md:flex-row flex-col justify-center md:gap-10 gap-2 md:static bg-transparent absolute ${open ? 'left-0 right-0 top-16 bg-gray-100 p-5' : 'top-[-200px]'}`}>
                         <li>
-                            <Link href="/" className='text-base font-normal text-[#272727]'>
+                            <Link href="/" className='text-base font-normal text-[#272727] orkneyRegular hover:font-bold'>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-[#272727]'>
+                            <Link href="#" className='text-base font-normal text-[#272727] orkneyRegular hover:font-bold'>
                                 It's all about you
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-[#272727]'>
+                            <Link href="#" className='text-base font-normal text-[#272727] orkneyRegular hover:font-bold'>
                                 Contact Us
                             </Link>
                         </li>
@@ -41,15 +41,15 @@ function Header() {
                 <div className='w-1/3 md:block hidden'>
                     <ul className='flex justify-end gap-10 items-center'>
                         <li>
-                            <span className='text-base font-normal text-[#272727] text-right block'>
+                            <span className='text-base font-normal text-[#272727] orkneyRegular text-right block'>
                                 Call Us
                             </span>
-                            <Link href="tel:213-460-2382" className='text-base font-bold text-[#272727]'>
+                            <Link href="tel:213-460-2382" className='text-base font-bold text-[#272727] orkneyRegular hover:text-[#99C12A]'>
                                 213-460-2382
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal uppercase bg-[#99C12A] text-white py-2 px-5 rounded-full block'>
+                            <Link href="#" className='text-base font-normal orkneyRegular uppercase bg-[#99C12A] text-white hover:bg-transparent hover:font-bold border-2 border-[#99C12A] py-2 px-5 rounded-full block'>
                                 Get In Touch
                             </Link>
                         </li>

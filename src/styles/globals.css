@@ -5,11 +5,19 @@
 
 @font-face {
   font-family: 'axiformaBold';
-  src: url('../../public//fonts/axiformaBold.ttf');  
+  src: url('../../public/fonts/axiformaBold.ttf');  
 }
 @font-face {
   font-family: 'axiformaRegular';
-  src: url('../../public//fonts/axiformaRegular.ttf');  
+  src: url('../../public/fonts/axiformaRegular.ttf');  
+}
+@font-face {
+  font-family: 'orkneyBold';
+  src: url('../../public/fonts/orkneyBold.ttf');  
+}
+@font-face {
+  font-family: 'orkneyRegular';
+  src: url('../../public/fonts//orkneyRegular.ttf');  
 }
 .axiformaBold{
   font-family: 'axiformaBold';
@@ -17,6 +25,13 @@
 }
 .axiformaRegular{
   font-family: 'axiformaRegular';
+}
+.orkneyBold{
+  font-family: 'orkneyBold';
+  font-weight: bold; 
+}
+.orkneyRegular{
+  font-family: 'orkneyRegular';
 }
 
 :root {

@@ -14,14 +14,14 @@ function Footer() {
                     </Link>
                 </div>
                 <div>
-                    <h6 className='text-base font-normal text-white mb-5'>
+                    <h6 className='text-base font-normal orkneyRegular text-white mb-5'>
                         Join Our Newsletter
                     </h6>
                     <form>
                         <div className="flex items-center border border-white/40">
                             <div className="relative w-full">
-                                <label htmlFor="email" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
-                                <input className="w-full px-4 text-base placeholder:text-base bg-transparent placeholder:text-white focus:outline-none h-full" placeholder="Enter Email" type="email" id="email" />
+                                <label htmlFor="email" className="hidden mb-2 text-sm font-medium text-gray-900">Email address</label>
+                                <input className="w-full px-4 text-base orkneyRegular placeholder:text-base bg-transparent placeholder:text-white focus:outline-none h-full" placeholder="Enter Email" type="email" id="email" />
                             </div>
                             <div>
                                 <button type="submit" className="py-3 px-5 w-fit bg-[#99C12A]">
@@ -56,32 +56,32 @@ function Footer() {
                 <div>
                     <ul className='grid gap-2'>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Ride Clone App - Taxi Booking
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Online Food Delivery System
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Delivery Anything
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Grocery Delivery App
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Medicine Delivery App
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Online Doctor Appointment Booking
                             </Link>
                         </li>
@@ -90,32 +90,32 @@ function Footer() {
                 <div>
                     <ul className='grid gap-2'>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Products
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 About Us
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Get A Quote
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Blog
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-white '>
+                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                                 Our Team
                             </Link>
                         </li>
@@ -124,23 +124,23 @@ function Footer() {
             </div>
             <div className='py-5 container mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-4 border-t border-white/10'>
                 <div>
-                    <p className='text-base font-normal text-white'>
+                    <p className='text-base font-normal orkneyRegular text-white'>
                         © Tahir. All rights reserved.
                     </p>
                 </div>
                 <ul className='flex gap-2 divide-x md:justify-end justify-start'>
                     <li>
-                        <Link href="#" className='text-base leading-none font-normal text-white px-2'>
+                        <Link href="#" className='text-base leading-none font-normal orkneyRegular text-white px-2 hover:font-bold'>
                             Menu
                         </Link>
                     </li>
                     <li>
-                        <Link href="#" className='text-base leading-none font-normal text-white px-2'>
+                        <Link href="#" className='text-base leading-none font-normal orkneyRegular text-white px-2 hover:font-bold'>
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link href="#" className='text-base leading-none font-normal text-white px-2'>
+                        <Link href="#" className='text-base leading-none font-normal orkneyRegular text-white px-2 hover:font-bold'>
                             Contact
                         </Link>
                     </li>
