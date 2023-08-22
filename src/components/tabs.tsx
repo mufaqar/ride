@@ -54,9 +54,10 @@ export default function Tabs() {
                     </div>
                 </div>
             </div>
-            <div className='md:bg-none bg-[url("/images/bg3.svg")] bg-right bg-no-repeat bg-contain'>
+            <div className='md:bg-none bg-[url("/images/bg3.svg")], bg-right bg-no-repeat bg-contain'>
                 {Tabs_Data.map((item: any, idx: number) => {
                     return <div key={idx} className={openTab === item.id ? "block" : "hidden"} id="link1">
+                    <Image src="/images/bg3.svg" alt='bg3.svg' width={989} height={643} className='absolute right-0  w-[60%] z-[-2] md:hidden block' />
                         <Image src={item?.img} alt={item?.title} width={830} height={643} />
                     </div>
                 })}
