@@ -16,7 +16,7 @@ export default function Home() {
         <Image src="/images/bg2.svg" alt='bg2.png' width={540} height={643} className='absolute top-auto left-0 max-w-[30%] md:block hidden' />
         <div className='container mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-10 relative z-10 items-center'>
           <div className='md:bg-none bg-[url("/images/bg2.svg")] bg-right bg-no-repeat bg-contain md:order-1 order-2'>
-            <Image src="/images/1.png" alt='2.png' width={830} height={643} />
+            <Image src="/images/2.png" alt='2.png' width={830} height={643} />
           </div>
           <div className='md:order-2 order-1'>
             <h1 className='md:text-[78px] text-5xl leading-none font-bold mb-8 axiformaBold'>
