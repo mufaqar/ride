@@ -27,12 +27,12 @@ function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-title_clr orkneyRegular hover:font-bold'>
+                            <Link href="#about" className='text-base font-normal text-title_clr orkneyRegular hover:font-bold'>
                                 It's all about you
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal text-title_clr orkneyRegular hover:font-bold'>
+                            <Link href="#cta" className='text-base font-normal text-title_clr orkneyRegular hover:font-bold'>
                                 Contact Us
                             </Link>
                         </li>

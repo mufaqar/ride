@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='py-20 relative'>
+      <section id="about" className='py-20 relative'>
         <Image src="/images/bg3.svg" alt='bg3.png' width={540} height={643} className='absolute top-auto left-[70%] max-w-[30%] md:block hidden' />
         <Tabs />
       </section>
