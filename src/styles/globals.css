@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'axiformaBold';
+  src: url('../../public//fonts/axiformaBold.ttf');  
+}
+@font-face {
+  font-family: 'axiformaRegular';
+  src: url('../../public//fonts/axiformaRegular.ttf');  
+}
+.axiformaBold{
+  font-family: 'axiformaBold';
+  font-weight: 900; 
+}
+.axiformaRegular{
+  font-family: 'axiformaRegular';
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -14,14 +31,4 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
