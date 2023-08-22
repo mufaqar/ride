@@ -24,7 +24,7 @@ function Footer() {
                                 <input className="w-full px-4 text-base orkneyRegular placeholder:text-base bg-transparent placeholder:text-white focus:outline-none h-full" placeholder="Enter Email" type="email" id="email" />
                             </div>
                             <div>
-                                <button type="submit" className="py-3 px-5 w-fit bg-Cstm_gren">
+                                <button type="submit" className="py-3 px-5 w-fit bg-Cstm_gren hover:bg-white">
                                     <BsArrowRight size={18} className="text-[#4048BF]" />
                                 </button>
                             </div>
@@ -33,22 +33,22 @@ function Footer() {
                     <ul className='flex gap-3 mt-8'>
                         <li>
                             <Link href="#" className='text-xl leading-none font-normal text-white'>
-                                <BiLogoFacebook />
+                                <BiLogoFacebook className="scale-100 hover:scale-125 transition delay-75 duration-150 ease-in-out" />
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className='text-xl leading-none font-normal text-white'>
-                                <BiLogoTwitter />
+                                <BiLogoTwitter className="scale-100 hover:scale-125 transition delay-75 duration-150 ease-in-out" />
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className='text-xl leading-none font-normal text-white'>
-                                <BiLogoInstagram />
+                                <BiLogoInstagram className="scale-100 hover:scale-125 transition delay-75 duration-150 ease-in-out" />
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className='text-xl leading-none font-normal text-white'>
-                                <BiLogoYoutube />
+                                <BiLogoYoutube className="scale-100 hover:scale-125 transition delay-75 duration-150 ease-in-out" />
                             </Link>
                         </li>
                     </ul>
