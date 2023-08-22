@@ -15,7 +15,7 @@ export default function Home() {
       <section className='py-20 relative'>
         <Image src="/images/bg2.svg" alt='bg2.png' width={989} height={643} className='absolute top-auto left-0 max-w-[25%] md:block hidden' />
         <div className='container mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-10 relative z-10 items-center'>
-          <div className='md:bg-none bg-[url("/images/bg2.svg")], bg-right bg-no-repeat bg-contain md:order-1 order-2'>
+          <div className='md:order-1 order-2'>
             <Image src="/images/bg2.svg" alt='bg2.svg' width={989} height={643} className='absolute -left-5 w-[60%] z-[-2] md:hidden block' />
             <Image src="/images/2.png" alt='2.png' width={830} height={643} />
           </div>
