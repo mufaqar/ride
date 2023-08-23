@@ -11,7 +11,7 @@ function Footer() {
                 <div>
                     <Link href="/">
                         <Image src="/images/logo-gren.svg" alt='logo' width={72} height={20} className='md:max-h-28 max-h-16 ml-0' />
-                        <h6 className='text-base font-normal orkneyRegular text-white mb-5'>
+                        <h6 className='text-base font-normal orkneyRegular text-white mt-5'>
                         My ride My price
                     </h6>
                     </Link>
@@ -66,7 +66,7 @@ function Footer() {
                 <div>
                     <ul className='grid gap-2'>
                         <li>
-                            <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
+                            <Link href="/" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
                             Rider App - Taxi Booking
                             </Link>
                         </li>
@@ -135,7 +135,7 @@ function Footer() {
             <div className='py-5 container mx-auto px-4 grid md:grid-cols-2 grid-cols-1 gap-4 border-t border-white/10'>
                 <div>
                     <p className='text-base font-normal orkneyRegular text-white'>
-                        © Tahir. All rights reserved.
+                        © Ride. All rights reserved.
                     </p>
                 </div>
                 <ul className='flex gap-2 divide-x md:justify-end justify-start'>
