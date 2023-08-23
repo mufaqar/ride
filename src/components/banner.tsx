@@ -19,10 +19,10 @@ function Banner() {
                         Ride or Drive with the price you both agree upon.
                     </h3>
                     <div className='flex flex-wrap gap-3'>
-                        <Link href="#" className='text-base font-normal uppercase orkneyRegular border-Cstm_gren border-2 bg-Cstm_gren text-title_clr hover:bg-transparent py-2 px-5 rounded-full block w-fit'>
+                        <Link href="mailto:info@ride.cab" className='text-base font-normal uppercase orkneyRegular border-Cstm_gren border-2 bg-Cstm_gren text-title_clr hover:bg-transparent py-2 px-5 rounded-full block w-fit'>
                             Download App
                         </Link>
-                        <Link href="#" className='text-base font-normal uppercase orkneyRegular border-Cstm_gren border-2 bg-transparent text-title_clr hover:bg-Cstm_gren hover:text-title_clr py-2 px-5 rounded-full block w-fit'>
+                        <Link href="mailto:info@ride.cab" className='text-base font-normal uppercase orkneyRegular border-Cstm_gren border-2 bg-transparent text-title_clr hover:bg-Cstm_gren hover:text-title_clr py-2 px-5 rounded-full block w-fit'>
                             Become a Driver
                         </Link>
                         <Link href="#" className='text-base font-normal uppercase orkneyRegular border-Cstm_gren border-2 bg-Cstm_gren text-white p-2 rounded-full block w-fit'>

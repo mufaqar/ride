@@ -49,7 +49,7 @@ function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className='text-base font-normal orkneyRegular uppercase bg-Cstm_gren text-white hover:bg-transparent hover:text-Cstm_gren border-2 border-Cstm_gren py-2 px-5 rounded-full block'>
+                            <Link href="mailto:info@ride.ca" className='text-base font-normal orkneyRegular uppercase bg-Cstm_gren text-white hover:bg-transparent hover:text-Cstm_gren border-2 border-Cstm_gren py-2 px-5 rounded-full block'>
                                 Get In Touch
                             </Link>
                         </li>

@@ -140,7 +140,7 @@ function Footer() {
                 </div>
                 <ul className='flex gap-2 divide-x md:justify-end justify-start'>
                     <li>
-                        <Link href="#" className='text-base leading-none font-normal orkneyRegular text-white px-2 hover:font-bold'>
+                        <Link href="/" className='text-base leading-none font-normal orkneyRegular text-white px-2 hover:font-bold'>
                             Menu
                         </Link>
                     </li>
@@ -150,7 +150,7 @@ function Footer() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="#" className='text-base leading-none font-normal orkneyRegular text-white px-2 hover:font-bold'>
+                        <Link href="mailto:info@ride.ca" className='text-base leading-none font-normal orkneyRegular text-white px-2 hover:font-bold'>
                             Contact
                         </Link>
                     </li>
