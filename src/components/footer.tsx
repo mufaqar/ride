@@ -12,7 +12,7 @@ function Footer() {
                     <Link href="/">
                         <Image src="/images/logo-gren.svg" alt='logo' width={72} height={20} className='md:max-h-28 max-h-16 ml-0' />
                         <h6 className='text-base font-normal orkneyRegular text-white mt-5'>
-                        My ride My price
+                        My Ride My Price
                     </h6>
                     </Link>
                 </div>
@@ -92,7 +92,7 @@ function Footer() {
                         </li>
                         <li>
                             <Link href="#" className='text-base font-normal orkneyRegular text-white hover:font-bold'>
-                            A super app
+                            A Auper App
                             </Link>
                         </li>
                     </ul>
